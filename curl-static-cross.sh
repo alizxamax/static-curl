@@ -773,6 +773,7 @@ curl_config() {
             --enable-gopher --enable-mqtt \
             --enable-doh --enable-dateparse --enable-verbose \
             --enable-alt-svc --enable-websockets \
+            --enable-ech \
             --enable-ipv6 --enable-unix-sockets --enable-socketpair \
             --enable-headers-api --enable-versioned-symbols \
             --enable-threaded-resolver --enable-optimize --enable-pthreads \
