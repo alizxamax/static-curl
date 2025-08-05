@@ -559,7 +559,7 @@ compile_tls() {
     if [ "${TLS_LIB}" = "quictls" ]; then
         url_from_github quictls/openssl "${QUICTLS_VERSION}"
     else
-        url_from_github openssl/openssl "${OPENSSL_VERSION}"
+        url_from_github sftcd/openssl "ECH-without-ESNI"
     fi
 
     url="${URL}"
